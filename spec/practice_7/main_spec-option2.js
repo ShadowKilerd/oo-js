@@ -63,7 +63,7 @@ describe("Option-2 Person", () => {
             const teacher = new Teacher("Tom", 21, klass);
             expect(teacher.name).to.equal("Tom");
             expect(teacher.age).to.equal(21);
-            expect(teacher.klass).to.equal(klass);
+            expect(teacher.klasses).to.equal(klass);
         });
 
         describe("#introduce", () => {
