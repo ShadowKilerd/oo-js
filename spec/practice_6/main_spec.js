@@ -42,7 +42,7 @@ describe("Person", () => {
            const teacher = new Teacher("Tom", 21, 2);
            expect(teacher.name).to.equal("Tom");
            expect(teacher.age).to.equal(21);
-           expect(teacher.klass).to.equal(2);
+           expect(teacher.klasses).to.equal(2);
        });
 
        it("should overwrite Person introduce, introduce with name, age and class number, given teacher have class", () => {
