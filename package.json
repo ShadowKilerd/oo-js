@@ -16,11 +16,15 @@
     "test": "mocha spec/**/*.js --require babel/register --require source-map-support/register"
   },
   "dependencies": {
+    "autobind-decorator": "^2.1.0",
     "chai": "^4.1.2",
-    "lodash": "3.9.3"
+    "lodash": "^4.17.10"
   },
   "devDependencies": {
     "babel": "^5.8.23",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "mocha": "^4.0.1",
     "sinon": "^4.0.1",
     "sinon-chai": "^2.14.0",
